@@ -5,8 +5,8 @@ const Message = ({ message, onAcknowledge }) => {
     <div
       className="flex flex-col items-center justify-center h-screen bg-gray-100"
       style={{
-        backgroundImage: 'url(https://i.ibb.co/vZ8xtHc/Background.jpg)', // Use the full URL
-        backgroundSize: 'cover',
+        backgroundImage: 'url(https://i.imghippo.com/files/sPuW1050A.jpg)', // Use the full URL
+        backgroundSize: 'contain',
         backgroundPosition: 'center',
       }}
     >
