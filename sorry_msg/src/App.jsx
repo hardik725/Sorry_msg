@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Message from './Components/message'
+import Message from './Components/Message';
 import './App.css'
 
 function App() {
