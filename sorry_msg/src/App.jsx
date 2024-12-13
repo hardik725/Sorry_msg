@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import Message from './Components/Message';
-import BloomingFlower from './Components/BloomingFlower';
 import './App.css';
 
 function App() {
   const [showSorryMessage, setShowSorryMessage] = useState(true);
 
   const handleAcknowledge = () => {
-    setShowSorryMessage(false);
+    // Redirect to an HTML page
+    window.location.href = '/thanx.html'; // Adjust the path to match the location of your HTML file
   };
 
   return (
@@ -21,7 +21,6 @@ function App() {
         ) : (
           <div className="flex flex-col items-center justify-center h-screen">
             <h1 className="text-3xl font-semibold mb-4">Thanks for understanding!</h1>
-            <BloomingFlower />
           </div>
         )}
       </div>
