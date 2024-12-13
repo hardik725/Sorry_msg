@@ -13,7 +13,7 @@ function App() {
     <p class="bg-red-600">Hi my name is Hardik</p>
     <div>
       {showSorryMessage ? (
-        <SorryMessage
+        <Message
           message="We're sorry for the inconvenience caused. Please let us know if there's anything we can do to help."
           onAcknowledge={handleAcknowledge}
         />
