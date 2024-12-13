@@ -10,7 +10,6 @@ function App() {
   };
   return (
     <>
-    <p class="bg-red-600">Hi my name is Hardik</p>
     <div>
       {showSorryMessage ? (
         <Message
